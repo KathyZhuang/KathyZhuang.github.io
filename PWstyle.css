@@ -9,7 +9,9 @@ body
 #header
 {
     height: 100vh;
-    background:url(PW1.png);
+    /*background:url(PW1.png);*/
+    background:url(plain-bgr-v1.png);
+
     /*linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6))*/
     background-position: center;
     background-size: cover;
@@ -27,17 +29,100 @@ body
 .profile-pic
 {
     /*CHANGE THIS LATER*/
-    border-radius: 35%;
-    width: 500px;
-    border: 2px solid lightseagreen;
+    /*border-radius: 35%;*/
+    width: 400px;
+    /*position: sticky;*/
+    /*border: 2px solid lightseagreen;*/
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
 }
 
-.user-box h1
-{
-    color: white;
-    font-width:bold;
-    margin: 10px;
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }
 }
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+
+.typewriter-3 h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid transparent; /* The typwriter cursor */
+    font-family: "Playfair Display";
+    font-size: 50px;
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 500 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .10em; /* Adjust as needed */
+  animation:
+  typing 2s steps(29,end) 1s 1 normal both,
+    blink-caret .75s step-end infinite;
+        /*blink-caret .75s step-end;*/
+  /*blink-caret 1000ms steps(29,end) infinite;*/
+
+}
+
+/* The typing effect */
+@keyframes typing {
+  /*from { width: 30% }*/
+  /*to { width: 50% } */
+    from{width: 0;}
+  to{width: 372px;}
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  /*   from{border-right-color: orange;}*/
+  /*to{border-right-color: transparent;}*/
+  from, to { border-color: transparent }
+  30% { border-color: transparent; }
+}
+
+
+.typewriter-2 h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid transparent; /* The typwriter cursor */
+    font-family: "Playfair Display";
+    font-size: 20px;
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 300 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .10em; /* Adjust as needed */
+  animation:
+  typing-2 2s steps(29,end) 3s 1 normal both,
+    blink-caret-2 .75s step-end infinite;
+        /*blink-caret .75s step-end;*/
+  /*blink-caret 1000ms steps(29,end) infinite;*/
+
+    /*typing 3.5s steps(40, end),*/
+    /*!*blink-caret .75s step-end infinite;*!*/
+    /*    blink-caret .75s step-end;*/
+    /*top: 10% !important;*/
+    /*left: 10% !important;*/
+
+}
+
+
+/* The typing effect */
+@keyframes typing-2 {
+  /*from { width: 30% }*/
+  /*to { width: 50% } */
+    from{width: 0;}
+  to{width: 640px;}
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret-2 {
+  /*   from{border-right-color: orange;}*/
+  /*to{border-right-color: transparent;}*/
+  from, to { border-color: transparent }
+  30% { border-color: transparent; }
+}
+
+
 
 .user-box p
 {
@@ -52,14 +137,14 @@ body
     position: absolute;
     left: 50%;
     transform:translateX(-50%);
-    border: 2px solid lightseagreen;
+    border: 2px solid #90AFFF;
     padding: 7px 7px 10px;
     border-radius: 30px;
 }
 
 .scroll-bar span
 {
-    border: 2px solid lightseagreen;
+    border: 2px solid #FADEB5;
     font-size: 10px;
     border-radius: 30px;
 }
@@ -91,13 +176,13 @@ body
 }
 .icon-bar
 {
-   background: lightseagreen;
+   background: #90AFFF;
 }
 
 li a
 {
 /* color of the menu elements*/
-   color: lightseagreen;
+   color: #90AFFF;
 }
 
 .nav-bar
@@ -110,7 +195,8 @@ li a
 .profile-pic-second{
     border-radius: 35%;
     width: 500px;
-    border: 2px solid lightseagreen;
+    position: absoulte;
+    border: 2px solid #90AFFF;
 }
 
 .about
@@ -135,7 +221,7 @@ li a
 .progress-bar
 {
     border-radius: 16px;
-    background: lightseagreen !important;
+    background: #90AFFF !important;
 }
 /*-----------------------------------------RESUME--------------------------------------------------*/
 .resume
@@ -159,7 +245,7 @@ li a
 .timeline:before
 {
     content: '';
-    background:lightseagreen;
+    background:#90AFFF;
     display: inline-block;
     position: absolute;
     left: 29px;
@@ -178,7 +264,7 @@ li a
 
 .timeline li h4
 {
-    background-color: lightseagreen;
+    background-color: #90AFFF;
     padding: 5px 0 5px 20px;
     column-rule-color: #fff;
     font-size: 15px;
@@ -199,12 +285,13 @@ li a
     position: absolute;
     display: inline-block;
     border-radius:50%;
-    border: 3px solid lightseagreen;
+    border: 3px solid #90AFFF;
     left:20px;
     width:20px;
     height:20px;
     z-index: 1;
 }
+
 
 /*-------------------------------------PROJECTS------------------------------------------------------*/
 .projects
@@ -222,7 +309,7 @@ li a
 
 .projects-box
 {
-    background:lightseagreen;
+    background:#90AFFF;
     padding: 10px;
     margin-top:20px;
     border-radius: 10px;
@@ -287,7 +374,7 @@ li a
 .contact .btn
 {
     padding: 10px 25px 10px 25px;
-    background: lightseagreen;
+    background: #90AFFF;
     border-radius:30px;
     border: 2px solid white;
 }
@@ -348,7 +435,7 @@ li a
     padding-left: 12px;
     padding-top: 6px;
     margin-top: 5px;
-    background: lightseagreen;
+    background: #90AFFF;
     color:white;
 }
 
