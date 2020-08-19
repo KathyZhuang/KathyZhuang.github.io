@@ -10,7 +10,7 @@ body
 {
     height: 100vh;
     /*background:url(PW1.png);*/
-    background:url(plain-bgr-v1.png);
+    background:url(bgr-v2.png);
 
     /*linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6))*/
     background-position: center;
@@ -52,7 +52,7 @@ body
 
 .typewriter-3 h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid transparent; /* The typwriter cursor */
+  border-right: .150em solid transparent; /* The typwriter cursor */
     font-family: "Playfair Display";
     font-size: 50px;
   white-space: nowrap; /* Keeps the content on a single line */
@@ -60,9 +60,9 @@ body
   letter-spacing: .10em; /* Adjust as needed */
   animation:
   typing 2s steps(29,end) 1s 1 normal both,
-    blink-caret .75s step-end infinite;
+    /*blink-caret .75s step-end infinite;*/
         /*blink-caret .75s step-end;*/
-  /*blink-caret 1000ms steps(29,end) infinite;*/
+  blink-caret 1000ms steps(29,end) ;
 
 }
 
@@ -85,7 +85,7 @@ body
 
 .typewriter-2 h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid transparent; /* The typwriter cursor */
+  border-right: .100em solid transparent; /* The typwriter cursor */
     font-family: "Playfair Display";
     font-size: 20px;
   white-space: nowrap; /* Keeps the content on a single line */
@@ -93,9 +93,9 @@ body
   letter-spacing: .10em; /* Adjust as needed */
   animation:
   typing-2 2s steps(29,end) 3s 1 normal both,
-    blink-caret-2 .75s step-end infinite;
+    /*blink-caret-2 .75s step-end infinite;*/
         /*blink-caret .75s step-end;*/
-  /*blink-caret 1000ms steps(29,end) infinite;*/
+  blink-caret 1000ms steps(29,end) ;
 
     /*typing 3.5s steps(40, end),*/
     /*!*blink-caret .75s step-end infinite;*!*/
@@ -144,7 +144,7 @@ body
 
 .scroll-bar span
 {
-    border: 2px solid #FADEB5;
+    border: 2px solid #90AFFF;
     font-size: 10px;
     border-radius: 30px;
 }
@@ -160,11 +160,17 @@ body
 }
 
 /*---------------------------------------------NAV BAR-------------------------------------------------*/
+.navbar{
+    border: 0px solid transparent!important;
+    margin-bottom:0px!important;
+
+    height: 10px !important;
+}
 
 .navbar-style
 {
    /*style of the txt and the whole bar*/
-   box-shadow: 0 5px 3px #efefef;
+   /*box-shadow: 0 1px 1px #efefef;*/
    text-transform: uppercase;
    background: white;
 }
@@ -199,15 +205,26 @@ li a
     border: 2px solid #90AFFF;
 }
 
+.user-info{
+    background:url(bgr-v2.png);
+}
+
 .about
 {
     padding-top: 100px;
-    padding-bottom: 50px;
+    /*padding-bottom: 50px;*/
+    /*background-color: orange*/
+    margine-top: 0 !important;
+    padding-left:0px;
+     background:url(bgr-v2.png);
+    width: 1440px !important;
+    height: 600px !important;
 }
+
 
 .skills-bar p
 {
-    margin-bottom:3px;
+    /*margin-bottom:3px;*/
     font-width: 200;
 }
 
