@@ -1,33 +1,29 @@
-body
-{
-    margin:0;
-    padding:0;
+body {
+    margin: 0;
+    padding: 0;
     font-family: sans-serif;
 }
 
 /*-----------------------------------------header css----------------------------------------*/
-#header
-{
+#header {
     height: 100vh;
     /*background:url(PW1.png);*/
-    background:url(bgr-v2.png);
-
+    background: url(bgr-v2.png);
+    /*background: url(bgr-black.png);*/
     /*linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6))*/
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
 
-.user-box
-{
+.user-box {
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     position: absolute;
 }
 
-.profile-pic
-{
+.profile-pic {
     /*CHANGE THIS LATER*/
     /*border-radius: 35%;*/
     width: 400px;
@@ -42,60 +38,72 @@ body
 }
 
 @keyframes floating {
-    from { transform: translate(0,  0px); }
-    65%  { transform: translate(0, 15px); }
-    to   { transform: translate(0, -0px); }
+    from {
+        transform: translate(0, 0px);
+    }
+    65% {
+        transform: translate(0, 15px);
+    }
+    to {
+        transform: translate(0, -0px);
+    }
 }
 
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
 
 .typewriter-3 h1 {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .150em solid transparent; /* The typwriter cursor */
-    font-family: "Playfair Display";
-    font-size: 50px;
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 500 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .10em; /* Adjust as needed */
-  animation:
-  typing 2s steps(29,end) 1s 1 normal both,
-    /*blink-caret .75s step-end infinite;*/
-        /*blink-caret .75s step-end;*/
-  blink-caret 1000ms steps(29,end) ;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .150em solid transparent; /* The typwriter cursor */
+    /*font-family: 'Tajawal', sans-serif;*/
+    font-family: 'Abel', sans-serif;
+            /*"Playfair Display";*/
+    font-size: 80px;
+    letter-spacing: 0.3px !important;
+    color: #2D3469;
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 500 auto; /* Gives that scrolling effect as the typing happens */
+    animation: typing 1s steps(29, end) 1s 1 normal both,
+        /*blink-caret .75s step-end infinite;*/ /*blink-caret .75s step-end;*/ blink-caret 1000ms steps(29, end);
 
 }
 
 /* The typing effect */
 @keyframes typing {
-  /*from { width: 30% }*/
-  /*to { width: 50% } */
-    from{width: 0;}
-  to{width: 372px;}
+    /*from { width: 30% }*/
+    /*to { width: 50% } */
+    from {
+        width: 0;
+    }
+    to {
+        width: 440px;
+    }
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
-  /*   from{border-right-color: orange;}*/
-  /*to{border-right-color: transparent;}*/
-  from, to { border-color: transparent }
-  30% { border-color: transparent; }
+    /*   from{border-right-color: orange;}*/
+    /*to{border-right-color: transparent;}*/
+    from, to {
+        border-color: transparent
+    }
+    30% {
+        border-color: transparent;
+    }
 }
 
 
 .typewriter-2 h1 {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .100em solid transparent; /* The typwriter cursor */
-    font-family: "Playfair Display";
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .100em solid transparent; /* The typwriter cursor */
+    /*font-family: "Playfair Display";*/
+    font-family: 'Tajawal', sans-serif;
     font-size: 20px;
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 300 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .10em; /* Adjust as needed */
-  animation:
-  typing-2 2s steps(29,end) 3s 1 normal both,
-    /*blink-caret-2 .75s step-end infinite;*/
-        /*blink-caret .75s step-end;*/
-  blink-caret 1000ms steps(29,end) ;
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 300 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .10em; /* Adjust as needed */
+    animation: typing-2 2s steps(29, end) 3s 1 normal both,
+        /*blink-caret-2 .75s step-end infinite;*/ /*blink-caret .75s step-end;*/ blink-caret 1000ms steps(29, end);
 
     /*typing 3.5s steps(40, end),*/
     /*!*blink-caret .75s step-end infinite;*!*/
@@ -108,164 +116,194 @@ body
 
 /* The typing effect */
 @keyframes typing-2 {
-  /*from { width: 30% }*/
-  /*to { width: 50% } */
-    from{width: 0;}
-  to{width: 640px;}
+    /*from { width: 30% }*/
+    /*to { width: 50% } */
+    from {
+        width: 0;
+    }
+    to {
+        width: 670px;
+    }
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret-2 {
-  /*   from{border-right-color: orange;}*/
-  /*to{border-right-color: transparent;}*/
-  from, to { border-color: transparent }
-  30% { border-color: transparent; }
+    /*   from{border-right-color: orange;}*/
+    /*to{border-right-color: transparent;}*/
+    from, to {
+        border-color: transparent
+    }
+    30% {
+        border-color: transparent;
+    }
 }
 
 
-
-.user-box p
-{
+.user-box p {
     color: white;
     font-size: 15px;
 }
 
 /*---------------------------MOUSE-SHAPE SCROLL BAR-----------------------------------------*/
-.scroll-btn
-{
+.scroll-btn {
     bottom: 15px;
     position: absolute;
     left: 50%;
-    transform:translateX(-50%);
+    transform: translateX(-50%);
     border: 2px solid #90AFFF;
     padding: 7px 7px 10px;
     border-radius: 30px;
 }
 
-.scroll-bar span
-{
+.scroll-bar span {
     border: 2px solid #90AFFF;
     font-size: 10px;
     border-radius: 30px;
 }
 
-.scroll-bar
-{
+.scroll-bar {
     animation: mover 1s infinite alternate;
 }
-@keyframes mover
-{
-    0%{transform: translateY(0);}
-    100%{transform: translateY(10px);}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(10px);
+    }
 }
 
 /*---------------------------------------------NAV BAR-------------------------------------------------*/
-.navbar{
-    border: 0px solid transparent!important;
-    margin-bottom:0px!important;
+.navbar {
+    border: 0px solid transparent !important;
+    margin-bottom: 0px !important;
 
     height: 0px !important;
 }
 
-.navbar-style
-{
-   /*style of the txt and the whole bar*/
-   box-shadow: 0 0px 0px #efefef;
-   text-transform: uppercase;
-   background: white;
-}
-.logo
-{
-   /*change the logo's size here*/
-   height:48px;
-   /*padding: 2px 10px;*/
-}
-.icon-bar
-{
-   background: #90AFFF;
+.navbar-style {
+    /*style of the txt and the whole bar*/
+    box-shadow: 0 0px 0px #efefef;
+    text-transform: uppercase;
+    background: white;
 }
 
-li a
-{
-/* color of the menu elements*/
-   color: #90AFFF;
+.logo {
+    /*change the logo's size here*/
+    height: 48px;
+    /*padding: 2px 10px;*/
 }
 
-.nav-bar
-{
-    top:0;
+.icon-bar {
+    background: #90AFFF;
+}
+
+li a {
+    /* color of the menu elements*/
+    color: #90AFFF;
+}
+
+.nav-bar {
+    top: 0;
     position: sticky;
     z-index: 2;
     margin-top: 0px !important;
 }
+
 /*-------------------------------------ABOUT ME-------------------------------------------------------*/
-.profile-pic-second{
+.profile-pic-second {
     border-radius: 10%;
     width: 500px;
     position: absoulte;
     margin-bottom: 100px;
     /*border: 2px solid #90AFFF;*/
+    opacity: 0;
 }
 
-.user-info{
-    background:url(bgr-v2.png);
+.user-info {
+    background: url(bgbgr-v2-opposite.png);
 }
 
-#about
-{
+#about {
     height: 100vh;
     /*background:url(PW1.png);*/
-    background:url(bgr-v2.png);
+    background: url(bgr-v2-opposite.png);
 
     /*linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6))*/
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    padding-top: 100px;*/
+    padding-top: 100px;
+
+
+    */
 }
 
+.hideme{
+    opacity: 0
+    }
 
-.skills-bar p
-{
+.hideme h3{
+    font-family: 'Tajawal', sans-serif !important;
+    color: #90AFFF;
+    font-size: 28px;
+}
+
+.hideme p{
+    font-family: 'Tajawal', sans-serif !important;
+    color: #90AFFF;
+    font-size: 28px;
+}
+
+/*#about .col-md-6{*/
+/*    color: red;*/
+/*    transition: width 2s, height 3s;*/
+/*}*/
+
+
+/*#about .col-md-6:hover{*/
+/*    width: 500px;*/
+/*    height: 500px;*/
+/*}*/
+
+
+
+.skills-bar p {
     /*margin-bottom:3px;*/
     font-width: 200;
 }
 
-.progress
-{
+.progress {
     border-radius: 16px !important;
     margin-bottom: 10px;
     height: 15px !important;
 }
 
-.progress-bar
-{
+.progress-bar {
     border-radius: 16px;
     background: #90AFFF !important;
 }
+
 /*-----------------------------------------RESUME--------------------------------------------------*/
-.resume
-{
-    padding-top:50px;
-    padding-bottom:30px;
+.resume {
+    padding-top: 50px;
+    padding-bottom: 30px;
     background: #f9f9f9
 }
 
-.resume h3
-{
+.resume h3 {
     margin-bottom: 50px;
 }
 
-.timeline
-{
+.timeline {
     list-style-type: none;
     position: relative;
 }
 
-.timeline:before
-{
+.timeline:before {
     content: '';
-    background:#90AFFF;
+    background: #90AFFF;
     display: inline-block;
     position: absolute;
     left: 29px;
@@ -274,16 +312,14 @@ li a
     z-index: 1;
 }
 
-.timeline li
-{
+.timeline li {
     margin-bottom: 20px;
     margin-top: 20px;
     margin-left: 20px;
-    background:#fff;
+    background: #fff;
 }
 
-.timeline li h4
-{
+.timeline li h4 {
     background-color: #90AFFF;
     padding: 5px 0 5px 20px;
     column-rule-color: #fff;
@@ -291,24 +327,22 @@ li a
     color: white;
 }
 
-.timeline li h4 span
-{
+.timeline li h4 span {
     font-weight: bold;
     color: white;
     font-size: 12px;
 }
 
-.timeline li:before
-{
-    content:'';
+.timeline li:before {
+    content: '';
     background: #ffffff;
     position: absolute;
     display: inline-block;
-    border-radius:50%;
+    border-radius: 50%;
     border: 3px solid #90AFFF;
-    left:20px;
-    width:20px;
-    height:20px;
+    left: 20px;
+    width: 20px;
+    height: 20px;
     z-index: 1;
 }
 
@@ -331,101 +365,94 @@ li a
 /*    box-shadow: 3px 3px 20px rgba(0, 0, 0, .5);*/
 /*    background: url(bg-blog-card.jpg) no-repeat;*/
 /*}*/
-    /* text-align: center;
+/* text-align: center;
 }
 
 .projects h1
 {
-    margin-bottom: 15px;
+margin-bottom: 15px;
 }
 
 .projects-box
 {
-    background:#90AFFF;
-    padding: 10px;
-    margin-top:20px;
-    border-radius: 10px;
+background:#90AFFF;
+padding: 10px;
+margin-top:20px;
+border-radius: 10px;
 }
 
 .projects-box .fa
 {
-    margin: 0 10px;
-    font-size: 26px;
-    color:white;
+margin: 0 10px;
+font-size: 26px;
+color:white;
 }
 
 .projects-box span
 {
-    margin:3px;
-    font-size:20px;
-    font-weight:bold;
-    color:white;
+margin:3px;
+font-size:20px;
+font-weight:bold;
+color:white;
 }
 
 .projects-box p
 {
-    font-size: 15px;
-    margin-top: 20px;
-    color:white;
+font-size: 15px;
+margin-top: 20px;
+color:white;
 }
 
 .projects-box:hover
 {
-    background: #1d978e;
-    color:#000;
-    padding: 10px;
-    margin-top:20px;
-    border-radius: 10px;
-    transition: 0.5s;
+background: #1d978e;
+color:#000;
+padding: 10px;
+margin-top:20px;
+border-radius: 10px;
+transition: 0.5s;
 }
 
 /*----------------------------------------CONTACT-------------------------------------------*/
-.contact
-{
+.contact {
     height: 70vh;
-    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(PW1.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(PW1.png);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     color: white;
 }
 
-.contact .row
-{
+.contact .row {
     padding: 30px 0;
     font-size: 18px;
 }
 
-.contact .col-md-4 .fa
-{
+.contact .col-md-4 .fa {
     padding: 10px;
     font-size: 22px;
     color: white;
 }
 
-.contact .btn
-{
+.contact .btn {
     padding: 10px 25px 10px 25px;
     background: #90AFFF;
-    border-radius:30px;
+    border-radius: 30px;
     border: 2px solid white;
 }
 
-.contact .btn:focus
-{
+.contact .btn:focus {
     box-shadow: none !important;
 }
 
-.contact .btn:hover
-{
+.contact .btn:hover {
     border: 2px solid white !important;
     background: #1d978e;
     transition: 0.5s;
 }
 
-.contact .btn .fa
-{
-    margin-right:10px;
+.contact .btn .fa {
+    margin-right: 10px;
     color: white;
 }
 
@@ -443,24 +470,21 @@ li a
 /*}*/
 
 /*---------------------------------- SOCIAL ICONS-------------------------------------*/
-.social-icons
-{
+.social-icons {
     top: 70%;
     padding-top: 0;
-    height:10px;
+    height: 10px;
     transform: translateY(-50%);
     position: sticky;
-    z-index:1000;
+    z-index: 1000;
     width: 80px;
 }
 
-.social-icons ul
-{
+.social-icons ul {
     padding: initial;
 }
 
-.social-icons ul li
-{
+.social-icons ul li {
     height: 40px;
     width: 40px;
     list-style-type: none;
@@ -468,23 +492,21 @@ li a
     padding-top: 6px;
     margin-top: 5px;
     background: #90AFFF;
-    color:white;
+    color: white;
 }
 
 
-.social-icons ul li:hover
-{
+.social-icons ul li:hover {
     padding-left: 30px;
     width: 50px;
     transition: 1s;
 }
 
 /*------------------project cards--------------------------*/
-
 @import url('https://fonts.googleapis.com/css?family=Heebo:400,700|Open+Sans:400,700');
 
 :root {
-  --color: #3c3163;
+  --color: white;
   --transition-time: 0.5s;
 }
 
@@ -503,62 +525,73 @@ a {
   color: inherit;
 }
 
-.cards-wrapper {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 4rem;
-  padding: 4rem;
-  margin: 0 auto;
-  width: max-content;
+.cards-wrapper-pc {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 400px 400px 400px;
+    grid-gap: 0rem !important;
+    padding: 0rem 0rem 0rem 0rem;
+    margin: 0 0;
+    margin-right: inherit;
+    background: url(bgr-v2-opposite.png);
+    background-size: cover;
+    background-position: center;
+    max-width: inherit;
+    background-attachment: fixed;
 }
 
-.card {
-  font-family: 'Heebo';
-  --bg-filter-opacity: 0.5;
+.cards-wrapper-pc h5{
+    font-size: 38px;
+}
+
+.card-pc {
+  font-family: Helvetica !important;
+    font-weight: bold;
+  --bg-filter-opacity: 0.2;
   background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img);
-  height: 20em;
+  height: 15em;
   width: 15em;
   font-size: 1.5em;
   color: white;
   border-radius: 1em;
   padding: 1em;
-  /*margin: 2em;*/
+  margin: 2em;
   display: flex;
   align-items: flex-end;
   background-size: cover;
   background-position: center;
-  box-shadow: 0 0 5em -1em black;
+  box-shadow: 0 0 5em -1em white;
   transition: all, var(--transition-time);
   position: relative;
   overflow: hidden;
-  border: 10px solid #ccc;
+  /*border: 10px solid #ccc;*/
   text-decoration: none;
 }
 
-.card:hover {
+.card-pc:hover {
   transform: rotate(0);
 }
 
-.card h1 {
+.card-pc h1 {
   margin: 0;
   font-size: 1.5em;
   line-height: 1.2em;
 }
 
-.card p {
+.card-pc p {
   font-size: 0.75em;
-  font-family: 'Open Sans';
+  font-family: 'Helvetica';
+  font-weight:bold
   margin-top: 0.5em;
   line-height: 2em;
 }
 
-.card .tags {
+.card-pc .tags {
   display: flex;
 }
 
-.card .tags .tag {
+.card-pc .tags .tag {
   font-size: 0.75em;
   background: rgba(255,255,255,0.5);
   border-radius: 0.3rem;
@@ -568,12 +601,12 @@ a {
   transition: all, var(--transition-time);
 }
 
-.card:hover .tags .tag {
-  background: var(--color);
+.card-pc:hover .tags .tag {
+  background: white;
   color: white;
 }
 
-.card .date {
+.card-pc .date {
   position: absolute;
   top: 0;
   right: 0;
@@ -583,7 +616,7 @@ a {
   opacity: .8;
 }
 
-.card:before, .card:after {
+.card-pc:before, .card:after {
   content: '';
   transform: scale(0);
   transform-origin: top left;
@@ -596,23 +629,24 @@ a {
   transition-timing-function: ease-in-out;
 }
 
-.card:before {
-  background: #ddd;
+.card-pc:before {
+  background: #90AFFF;
   width: 250%;
   height: 250%;
+  opacity: 0.3
 }
 
-.card:after {
+.card-pc:after {
   background: white;
   width: 200%;
   height: 200%;
 }
 
-.card:hover {
+.card-pc:hover {
   color: var(--color);
 }
 
-.card:hover:before, .card:hover:after {
+.card-pc:hover:before, .card:hover:after {
   transform: scale(1);
 }
 
@@ -639,28 +673,28 @@ a {
   font-weight: normal;
 }
 
-/* MEDIA QUERIES */
+ /*MEDIA QUERIES */
 @media screen and (max-width: 1285px) {
-  .cards-wrapper {
+  .cards-wrapper-pc {
     grid-template-columns: 60px 60px 60px;
   }
 }
 
 @media screen and (max-width: 900px) {
-  .cards-wrapper {
+  .cards-wrapper-pc {
     grid-template-columns: 60px 60px 60px;
   }
   .info {
     justify-content: center;
   }
   .card-grid-space .num {
-    /margin-left: 0;
-    /*/text-align: center;*/
+    margin-left: 0;
+    text-align: center;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .cards-wrapper {
+  .cards-wrapper-pc {
     padding: 4rem 2rem;
   }
   .card {
@@ -676,4 +710,336 @@ a {
   .info h1 {
     margin: 0;
   }
+}
+
+/*----------selection card ------------*/
+body {
+    width: 100vw;
+    background-color: #90AFFF
+            /*#1D1D1D;*/
+    margin: 0;
+    font-family: Roboto;
+            /*helvetica;*/
+}
+
+.about {
+    $ cubic: cubic-bezier(0.64, 0.01, 0.07, 1.65);
+    $ transition: 0.6s $ cubic;
+    $ size: 40px;
+    position: fixed;
+    z-index: 10;
+    bottom: 10px;
+    right: 10px;
+    width: $ size;
+    height: $ size;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    transition: all 0.2s ease;
+
+.bg_links {
+    width: $ size;
+    height: $ size;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #90AFFF
+    /*rgba(#fff, 0.2);*/
+    border-radius: 100%;
+    backdrop-filter: blur(5px);
+    position: absolute;
+    background: url(bgr-v2.png);
+
+}
+
+.logo {
+    width: $ size;
+    height: $ size;
+    z-index: 9;
+    background-image: url(https://rafaelalucas91.github.io/assets/codepen/logo_white.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 10px 7px;
+    opacity: 0.9;
+    transition: all 1s 0.2s ease;
+    bottom: 0;
+    right: 0;
+}
+
+.social {
+    opacity: 0;
+    right: 0;
+    bottom: 0;
+
+.icon {
+    width: 100%;
+    height: 100%;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    display: flex;
+    transition: all 0.2s ease, background-color 0.4s ease;
+    opacity: 0;
+    border-radius: 100%;
+}
+
+&
+.portfolio {
+    transition: all 0.8s ease;
+
+.icon {
+    background-image: url(https://rafaelalucas91.github.io/assets/codepen/link.svg);
+}
+
+}
+
+&
+.dribbble {
+    transition: all 0.3s ease;
+
+.icon {
+    background-image: url(https://rafaelalucas91.github.io/assets/codepen/dribbble.svg);
+}
+
+}
+
+&
+.linkedin {
+    transition: all 0.8s ease;
+
+.icon {
+    background-image: url(https://rafaelalucas91.github.io/assets/codepen/linkedin.svg);
+}
+
+}
+}
+
+&
+:hover {
+    width: 105px;
+    height: 105px;
+    transition: all $ transition;
+
+.logo {
+    opacity: 1;
+    transition: all 0.6s ease;
+}
+
+.social {
+    opacity: 1;
+
+.icon {
+    opacity: 0.9;
+}
+
+&
+:hover {
+    background-size: 28px;
+
+.icon {
+    background-size: 65%;
+    opacity: 1;
+}
+
+}
+
+&
+.portfolio {
+    right: 0;
+    bottom: calc(100% - 40px);
+    transition: all 0.3s 0s $ cubic;
+
+.icon {
+
+&
+:hover {
+    background-color: #90AFFF;
+}
+
+}
+}
+
+&
+.dribbble {
+    bottom: 45%;
+    right: 45%;
+    transition: all 0.3s 0.15s $ cubic;
+
+.icon {
+
+&
+:hover {
+    background-color: #90AFFF;
+}
+
+}
+}
+
+&
+.linkedin {
+    bottom: 0;
+    right: calc(100% - 40px);
+    transition: all 0.3s 0.25s $ cubic;
+
+.icon {
+
+&
+:hover {
+    background-color: #90AFFF;
+}
+
+}
+}
+}
+}
+}
+
+.wrapper {
+    width: 100vw;
+    margin: 0 auto;
+    height: 400px;
+    background-color: #90AFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 767px) {
+    .wrapper {
+        height: 700px;
+    }
+}
+
+.content {
+    max-width: inherit;
+    width: 100%;
+    padding: 350px 0 20px;
+    padding-top: 0px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background: url(bgr-v2-opposite.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+@media screen and (max-width: 767px) {
+    .content {
+        padding-top: 300px;
+        flex-direction: column;
+    }
+}
+
+.card {
+    width: 100%;
+    max-width: 300px;
+    min-width: 200px;
+    height: 250px;
+    background-color: transparent;
+
+    margin: 10px;
+    border-radius: 10px;
+    /*box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);*/
+    /*border: 2px solid rgba(7, 7, 7, 0.12);*/
+    font-size: 16px;
+    transition: all 0.3s ease;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.icon {
+    margin: 0 auto;
+    width: 100%;
+    height: 80px;
+    max-width: 80px;
+    background: linear-gradient(90deg, #90AFFF 0%, #b0d6ff 50%, #90AFFF 100%);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: all 0.8s ease;
+    background-position: 0px;
+    background-size: 200px;
+}
+
+.material-icons.md-18 {
+    font-size: 18px;
+}
+
+.material-icons.md-24 {
+    font-size: 24px;
+}
+
+.material-icons.md-36 {
+    font-size: 36px;
+}
+
+.material-icons.md-48 {
+    font-size: 48px;
+}
+
+.card .title {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    margin-top: 30px;
+    color: #90AFFF;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.card .text {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 20px;
+    color: #90AFFF;
+    font-weight: 600;
+    letter-spacing: 2px;
+    opacity: 0;
+    max-height: 0;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    height: 270px;
+}
+
+.card:hover .info {
+    height: 90%;
+}
+
+.card:hover .text {
+    transition: all 0.3s ease;
+    opacity: 1;
+    max-height: 40px;
+}
+
+.card:hover .icon {
+    background-position: -120px;
+    transition: all 0.3s ease;
+}
+
+.card:hover .icon i {
+    background: linear-gradient(90deg, #C3FFC9, #D6FFDA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 1;
+    transition: all 0.3s ease;
 }

@@ -15,22 +15,28 @@
 
 </head>
 <body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="PWanimation.js"></script>
 <!--HEADER SECTION-->
 <section id="header">
     <div class="container text-center">
         <div class="user-box">
             <img class="profile-pic" src="frontpage-graphics-v1.png">
+
         </div>
 
         <div class="typewriter-3">
-            <!--            <h1>Hi, I am Kathy</h1>-->
-            <h1>Hi, I am name </h1>
+            <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+<!--            <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@700&display=swap" rel="stylesheet">-->
+            <h1>Hi, I am Kathy</h1>
+<!--            <h1>Hi, I am name </h1>-->
 
         </div>
 
         <div class="typewriter-2">
-            <!--            <h1>UofT Engineering Science Student, Machine Intelligence Option</h1>-->
-            <h1>XXXX XXXXXXXXXXX XXXXXXX XXXXXXX XXXXXXXXXXXX XXXXXXXXXXXXXXX</h1>
+            <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@500;700&display=swap" rel="stylesheet">
+                        <h1>UofT Engineering Science Student, Machine Intelligence Option</h1>
+<!--            <h1>XXXX XXXXXXXXXXX XXXXXXX XXXXXXX XXXXXXXXXXXX XXXXXXXXXXXXXXX</h1>-->
         </div>
 
     </div>
@@ -92,10 +98,13 @@
             <!--        <div class="row">-->
             <div class="col-md-6 text-center">
                 <img src="profile.jpg" class="profile-pic-second">
+<!--                <img src="PW3.jpg" class="profile-pic-second">-->
+
                 <!--            <img src="frontpage-graphics-v1.png" class="profile-pic-second">-->
 
             </div>
-            <div class="col-md-6">
+            <div id= "monster" class="hideme">
+                <link href="https://fonts.googleapis.com/css2?family=Gudea:wght@700&family=Tajawal:wght@500;700&display=swap" rel="stylesheet">
                 <h3>WHO AM I?</h3>
                 <p> THIS IS name THIS IS name THIS IS name THIS IS name THIS IS name THIS IS name
                 </p>
@@ -126,7 +135,170 @@
         </div>
         <!--    </div>-->
 
-        <!--        --------------------Project Cards----------------------------->
+        <!--        -------------------- selection ----------------------------->
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <div class="content">
+            <!-- card -->
+            <div class="card">
+
+                <div class="icon"><i class="material-icons md-36">code</i></div>
+                <p class="title">Software Projects</p>
+                <p class="text">Click to see my software projects</p>
+
+            </div>
+            <!-- end card -->
+            <!-- card -->
+            <div class="card">
+
+                <div class="icon"><i class="material-icons md-36">build</i></div>
+                <p class="title">Engineering Projects</p>
+                <p class="text">Click to see my engineering projects.</p>
+
+            </div>
+            <!-- end card -->
+            <!-- card -->
+            <div class="card">
+
+                <div class="icon"><i class="material-icons md-36">color_lens</i></div>
+                <p class="title">Graphic Designs</p>
+                <p class="text">Click to see what I work on in my free time.</p>
+
+            </div>
+            <!-- end card -->
+
+
+        </div>
+        </div>
+
+
+        <!--    ----------------------------PROJECTS------------------------------------------>
+        <!--        <div class="projects" id="projects">-->
+        <!--            <div class=container">-->
+
+
+        <!--                            <h1 class="text-center">My Projects</h1>-->
+        <!--                            <p class="text-center">here are my projects<br>Implemented and maintained a web scraper of real-time tweets-->
+        <!--                                in Python, integrated with Twitter API to retrieve 1000+ raw tweet data and twitter account data per-->
+        <!--                                day.<br>-->
+        <!--                                - Designed and developed several Leaflet map layers to visualize the detected fire event polygons with-->
+        <!--                                Angular 2+ and TypeScript. <br>-->
+        <!--                                - Integrated AutoComplete in fire location search, supporting fuzzy search and abbreviation search</p>-->
+
+        <!--                            <div class="row">-->
+        <!--                                <div class="col-md-4">-->
+        <!--                                    <div class="projects-box">-->
+        <!--                                        <i class="fa fa-code" aria-hidden="true"></i><span>Programming</span>-->
+        <!--                                        <p>I know how to program<br>- Integrated AutoComplete in fire location search, supporting fuzzy-->
+        <!--                                            search and abbreviation search-->
+        <!--                                        </p>-->
+        <!--                                    </div>-->
+        <!--                                </div>-->
+
+        <!--                <div class="col-md-4">-->
+        <!--                    <div class="projects-box">-->
+        <!--                        <i class="fa fa-coffee" aria-hidden="true"></i><span>Programming</span>-->
+        <!--                        <p>I know how to program<br>- Integrated AutoComplete in fire location search, supporting fuzzy-->
+        <!--                            search and abbreviation search-->
+        <!--                        </p>-->
+        <!--                    </div>-->
+        <!--                </div>-->
+
+        <!--                                <div class="col-md-4">-->
+        <!--                                    <div class="projects-box">-->
+        <!--                                        <i class="fa fa-rocket"aria-hidden="true"></i><span>Programming</span>-->
+        <!--                                        <p>I know how to program<br>- Integrated AutoComplete in fire location search, supporting fuzzy-->
+        <!--                                            search and abbreviation search-->
+        <!--                                        </p>-->
+        <!--                                    </div>-->
+        <!--                                </div>-->
+        <!--                            </div>-->
+        <!--            </div>-->
+        <!--        </div>-->
+
+        <div class="cards-wrapper-pc">
+            <h5>Software Project</h5>
+            <div class="card-grid-space">
+                <a class="card-pc" href="https://codetheweb.blog/2017/10/06/html-syntax/"
+                   style="--bg-img: url(owo_project_pic.png)">
+                    <div>
+                        <h1>One-Way-Only (OWO)</h1>
+                        <p>The syntax of a language is how it works. How to actually write it. Learn HTML syntax…</p>
+                        <div class="date">6 Oct 2017</div>
+                        <div class="tags">
+                            <div class="tag">HTML</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card-grid-space">
+                <a class="card-pc" href="https://codetheweb.blog/2017/10/09/basic-types-of-html-tags/"
+                   style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/basic-types-of-html-tags/cover.jpg')">
+                    <div>
+                        <h1>Basic types of HTML tags</h1>
+                        <p>Learn about some of the most common HTML tags…</p>
+                        <div class="date">9 Oct 2017</div>
+                        <div class="tags">
+                            <div class="tag">HTML</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card-grid-space">
+                <a class="card-pc" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/"
+                   style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg')">
+                    <div>
+                        <h1>Links, images and about file paths</h1>
+                        <p>Learn how to use links and images along with file paths…</p>
+                        <div class="date">14 Oct 2017</div>
+                        <div class="tags">
+                            <div class="tag">HTML</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card-grid-space">
+                <a class="card-pc" href="https://codetheweb.blog/2017/10/06/html-syntax/"
+                   style="--bg-img: url(owo_project_pic.png)">
+                    <div>
+                        <h1>One-Way-Only (OWO)</h1>
+                        <p>The syntax of a language is how it works. How to actually write it. Learn HTML syntax…</p>
+                        <div class="date">6 Oct 2017</div>
+                        <div class="tags">
+                            <div class="tag">HTML</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card-grid-space">
+                <a class="card-pc" href="https://codetheweb.blog/2017/10/09/basic-types-of-html-tags/"
+                   style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/basic-types-of-html-tags/cover.jpg')">
+                    <div>
+                        <h1>Basic types of HTML tags</h1>
+                        <p>Learn about some of the most common HTML tags…</p>
+                        <div class="date">9 Oct 2017</div>
+                        <div class="tags">
+                            <div class="tag">HTML</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card-grid-space">
+                <a class="card-pc" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/"
+                   style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg')">
+                    <div>
+                        <h1>Links, images and about file paths</h1>
+                        <p>Learn how to use links and images along with file paths…</p>
+                        <div class="date">14 Oct 2017</div>
+                        <div class="tags">
+                            <div class="tag">HTML</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- https://images.unsplash.com/photo-1520839090488-4a6c211e2f94?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=38951b8650067840307cba514b554ba5&auto=format&fit=crop&w=1350&q=80 -->
+        </div>
 
 
         <!--    -------------------RESUME--------------------------------->
@@ -235,95 +407,7 @@
             </div>
         </div>
 
-        <!--    ----------------------------PROJECTS------------------------------------------>
-        <!--        <div class="projects" id="projects">-->
-        <!--            <div class=container">-->
 
-
-        <!--                            <h1 class="text-center">My Projects</h1>-->
-        <!--                            <p class="text-center">here are my projects<br>Implemented and maintained a web scraper of real-time tweets-->
-        <!--                                in Python, integrated with Twitter API to retrieve 1000+ raw tweet data and twitter account data per-->
-        <!--                                day.<br>-->
-        <!--                                - Designed and developed several Leaflet map layers to visualize the detected fire event polygons with-->
-        <!--                                Angular 2+ and TypeScript. <br>-->
-        <!--                                - Integrated AutoComplete in fire location search, supporting fuzzy search and abbreviation search</p>-->
-
-        <!--                            <div class="row">-->
-        <!--                                <div class="col-md-4">-->
-        <!--                                    <div class="projects-box">-->
-        <!--                                        <i class="fa fa-code" aria-hidden="true"></i><span>Programming</span>-->
-        <!--                                        <p>I know how to program<br>- Integrated AutoComplete in fire location search, supporting fuzzy-->
-        <!--                                            search and abbreviation search-->
-        <!--                                        </p>-->
-        <!--                                    </div>-->
-        <!--                                </div>-->
-
-        <!--                <div class="col-md-4">-->
-        <!--                    <div class="projects-box">-->
-        <!--                        <i class="fa fa-coffee" aria-hidden="true"></i><span>Programming</span>-->
-        <!--                        <p>I know how to program<br>- Integrated AutoComplete in fire location search, supporting fuzzy-->
-        <!--                            search and abbreviation search-->
-        <!--                        </p>-->
-        <!--                    </div>-->
-        <!--                </div>-->
-
-        <!--                                <div class="col-md-4">-->
-        <!--                                    <div class="projects-box">-->
-        <!--                                        <i class="fa fa-rocket"aria-hidden="true"></i><span>Programming</span>-->
-        <!--                                        <p>I know how to program<br>- Integrated AutoComplete in fire location search, supporting fuzzy-->
-        <!--                                            search and abbreviation search-->
-        <!--                                        </p>-->
-        <!--                                    </div>-->
-        <!--                                </div>-->
-        <!--                            </div>-->
-        <!--            </div>-->
-        <!--        </div>-->
-
-        <div class="cards-wrapper">
-            <div class="card-grid-space">
-                <div class="num">01</div>
-                <a class="card" href="https://codetheweb.blog/2017/10/06/html-syntax/"
-                   style="--bg-img: url(https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/html-syntax/cover.jpg)">
-                    <div>
-                        <h1>HTML Syntax</h1>
-                        <p>The syntax of a language is how it works. How to actually write it. Learn HTML syntax…</p>
-                        <div class="date">6 Oct 2017</div>
-                        <div class="tags">
-                            <div class="tag">HTML</div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="card-grid-space">
-                <div class="num">02</div>
-                <a class="card" href="https://codetheweb.blog/2017/10/09/basic-types-of-html-tags/"
-                   style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/basic-types-of-html-tags/cover.jpg')">
-                    <div>
-                        <h1>Basic types of HTML tags</h1>
-                        <p>Learn about some of the most common HTML tags…</p>
-                        <div class="date">9 Oct 2017</div>
-                        <div class="tags">
-                            <div class="tag">HTML</div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="card-grid-space">
-                <div class="num">03</div>
-                <a class="card" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/"
-                   style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg')">
-                    <div>
-                        <h1>Links, images and about file paths</h1>
-                        <p>Learn how to use links and images along with file paths…</p>
-                        <div class="date">14 Oct 2017</div>
-                        <div class="tags">
-                            <div class="tag">HTML</div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <!-- https://images.unsplash.com/photo-1520839090488-4a6c211e2f94?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=38951b8650067840307cba514b554ba5&auto=format&fit=crop&w=1350&q=80 -->
-        </div>
 
         <!--    ------------------------------CONTACT------------------------------------------------------->
         <div class="contact" id="contact">
@@ -361,7 +445,6 @@
             <!--            <p>Thank you!</p>-->
             <!--        </div>-->
         </div>
-
 
 
     </section>
