@@ -6,17 +6,10 @@
     <link rel="stylesheet" type="text/css" href="PWstyle.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://use.fontawesome.com/92b73f069d.js"></script>
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!--    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>-->
 
 </head>
 <body>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script type="text/javascript" src="PWanimation.js"></script>
 <!--HEADER SECTION-->
 <section id="header">
     <div class="container text-center">
@@ -27,16 +20,16 @@
 
         <div class="typewriter-3">
             <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
-<!--            <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@700&display=swap" rel="stylesheet">-->
+            <!--            <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@700&display=swap" rel="stylesheet">-->
             <h1>Hi, I am Kathy</h1>
-<!--            <h1>Hi, I am name </h1>-->
+            <!--            <h1>Hi, I am name </h1>-->
 
         </div>
 
         <div class="typewriter-2">
             <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@500;700&display=swap" rel="stylesheet">
-                        <h1>UofT Engineering Science Student, Machine Intelligence Option</h1>
-<!--            <h1>XXXX XXXXXXXXXXX XXXXXXX XXXXXXX XXXXXXXXXXXX XXXXXXXXXXXXXXX</h1>-->
+            <h1>UofT Engineering Science Student, Machine Intelligence Option</h1>
+            <!--            <h1>XXXX XXXXXXXXXXX XXXXXXX XXXXXXX XXXXXXXXXXXX XXXXXXXXXXXXXXX</h1>-->
         </div>
 
     </div>
@@ -98,13 +91,14 @@
             <!--        <div class="row">-->
             <div class="col-md-6 text-center">
                 <img src="profile.jpg" class="profile-pic-second">
-<!--                <img src="PW3.jpg" class="profile-pic-second">-->
+                <!--                <img src="PW3.jpg" class="profile-pic-second">-->
 
                 <!--            <img src="frontpage-graphics-v1.png" class="profile-pic-second">-->
 
             </div>
-            <div id= "monster" class="hideme">
-                <link href="https://fonts.googleapis.com/css2?family=Gudea:wght@700&family=Tajawal:wght@500;700&display=swap" rel="stylesheet">
+            <div id="monster" class="hideme">
+                <link href="https://fonts.googleapis.com/css2?family=Gudea:wght@700&family=Tajawal:wght@500;700&display=swap"
+                      rel="stylesheet">
                 <h3>WHO AM I?</h3>
                 <p> THIS IS name THIS IS name THIS IS name THIS IS name THIS IS name THIS IS name
                 </p>
@@ -143,18 +137,21 @@
             <!-- card -->
             <div class="card">
 
-                <div class="icon"><i class="material-icons md-36">code</i></div>
-                <p class="title">Software Projects</p>
-                <p class="text">Click to see my software projects</p>
+                <div class="icon"><i class="material-icons md-36"><a class="a-style-icon"
+                                                                     href="#software-pc">code</a></i></div>
+                <p class="title"><a class="a-style-txt" href="#software-pc">Software Projects</a></p>
+                <p class="text"><a class="a-style-txt" href="#software-pc">Click to see my software projects</a></p>
 
             </div>
             <!-- end card -->
             <!-- card -->
             <div class="card">
 
-                <div class="icon"><i class="material-icons md-36">build</i></div>
-                <p class="title">Engineering Projects</p>
-                <p class="text">Click to see my engineering projects.</p>
+                <div class="icon"><i class="material-icons md-36"><a class="a-style-icon"
+                                                                     href="#engineering-pc">build</a></i></div>
+                <p class="title"><a class="a-style-txt" href="#engineering-pc">Engineering Projects</a></p>
+                <p class="text"><a class="a-style-txt" href="#engineering-pc">Click to see my engineering projects.</a>
+                </p>
 
             </div>
             <!-- end card -->
@@ -170,61 +167,139 @@
 
 
         </div>
+
+
+        <!--        -------- Experience ------------>
+        <div class="subtitles" id="software-pc">Experience</div>
+        <div class="cards-wrapper-pc">
+            <div class="card-grid-space">
+                <a class="card-pc" href="https://codetheweb.blog/2017/10/09/basic-types-of-html-tags/"
+                   style="--bg-img: url('disparity-pw.png')">
+                    <div>
+                        <h1>University of Toronto, Intelligent Sensory Microsystems Laboratory </h1>
+                        <p>Research Assistant</p>
+                        <div class="date">05/2020-08/2020</div>
+                        <div class="tags">
+                            <div class="tag">Details</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="pc-introduction">
+                Developing demos for Coded-Exposure-Pixel cameras on 3D reconstruction and multispectral imaging. The
+                demos will be included in the paper submitted to the 2020 International Solid-State Circuits Conference.<br><br>
+                Implementing computer vision algorithms such as structured light using Python, Bash and Matlab to obtain
+                disparity maps and albedo maps.<br><br>
+                Integrating an auto-tuning structured light machine learning model on the camera to realize quick 3D
+                image construction.
+            </div>
+
+            <div class="card-grid-space">
+                <a class="card-pc" href="https://codetheweb.blog/2017/10/09/basic-types-of-html-tags/"
+                   style="--bg-img: url('disparity-pw.png')">
+                    <div>
+                        <h1>University of Toronto, Intelligent Sensory Microsystems Laboratory </h1>
+                        <p>Research Assistant</p>
+                        <div class="date">05/2020-08/2020</div>
+                        <div class="tags">
+                            <div class="tag">Details</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="pc-introduction">
+                Developing demos for Coded-Exposure-Pixel cameras on 3D reconstruction and multispectral imaging. The
+                demos will be included in the paper submitted to the 2020 International Solid-State Circuits Conference.<br><br>
+                Implementing computer vision algorithms such as structured light using Python, Bash and Matlab to obtain
+                disparity maps and albedo maps.<br><br>
+                Integrating an auto-tuning structured light machine learning model on the camera to realize quick 3D
+                image construction.
+            </div>
+
+            <div class="card-grid-space">
+                <a class="card-pc" href="https://codetheweb.blog/2017/10/09/basic-types-of-html-tags/"
+                   style="--bg-img: url('disparity-pw.png')">
+                    <div>
+                        <h1>University of Toronto, Intelligent Sensory Microsystems Laboratory </h1>
+                        <p>Research Assistant</p>
+                        <div class="date">05/2020-08/2020</div>
+                        <div class="tags">
+                            <div class="tag">Details</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="pc-introduction">
+                Developing demos for Coded-Exposure-Pixel cameras on 3D reconstruction and multispectral imaging. The
+                demos will be included in the paper submitted to the 2020 International Solid-State Circuits Conference.<br><br>
+                Implementing computer vision algorithms such as structured light using Python, Bash and Matlab to obtain
+                disparity maps and albedo maps.<br><br>
+                Integrating an auto-tuning structured light machine learning model on the camera to realize quick 3D
+                image construction.
+            </div>
         </div>
 
 
-        <!--    ----------------------------PROJECTS------------------------------------------>
-        <!--        <div class="projects" id="projects">-->
-        <!--            <div class=container">-->
-
-
-        <!--                            <h1 class="text-center">My Projects</h1>-->
-        <!--                            <p class="text-center">here are my projects<br>Implemented and maintained a web scraper of real-time tweets-->
-        <!--                                in Python, integrated with Twitter API to retrieve 1000+ raw tweet data and twitter account data per-->
-        <!--                                day.<br>-->
-        <!--                                - Designed and developed several Leaflet map layers to visualize the detected fire event polygons with-->
-        <!--                                Angular 2+ and TypeScript. <br>-->
-        <!--                                - Integrated AutoComplete in fire location search, supporting fuzzy search and abbreviation search</p>-->
-
-        <!--                            <div class="row">-->
-        <!--                                <div class="col-md-4">-->
-        <!--                                    <div class="projects-box">-->
-        <!--                                        <i class="fa fa-code" aria-hidden="true"></i><span>Programming</span>-->
-        <!--                                        <p>I know how to program<br>- Integrated AutoComplete in fire location search, supporting fuzzy-->
-        <!--                                            search and abbreviation search-->
-        <!--                                        </p>-->
-        <!--                                    </div>-->
-        <!--                                </div>-->
-
-        <!--                <div class="col-md-4">-->
-        <!--                    <div class="projects-box">-->
-        <!--                        <i class="fa fa-coffee" aria-hidden="true"></i><span>Programming</span>-->
-        <!--                        <p>I know how to program<br>- Integrated AutoComplete in fire location search, supporting fuzzy-->
-        <!--                            search and abbreviation search-->
-        <!--                        </p>-->
-        <!--                    </div>-->
-        <!--                </div>-->
-
-        <!--                                <div class="col-md-4">-->
-        <!--                                    <div class="projects-box">-->
-        <!--                                        <i class="fa fa-rocket"aria-hidden="true"></i><span>Programming</span>-->
-        <!--                                        <p>I know how to program<br>- Integrated AutoComplete in fire location search, supporting fuzzy-->
-        <!--                                            search and abbreviation search-->
-        <!--                                        </p>-->
-        <!--                                    </div>-->
-        <!--                                </div>-->
-        <!--                            </div>-->
-        <!--            </div>-->
-        <!--        </div>-->
-
+        <!--        --------software project ------------>
+        <div class="subtitles" id="software-pc">Software Projects</div>
         <div class="cards-wrapper-pc">
-            <h5>Software Project</h5>
+            <div class="card-grid-space">
+                <a class="card-pc" href="https://codetheweb.blog/2017/10/09/basic-types-of-html-tags/"
+                   style="--bg-img: url('AI-eye.png')">
+                    <div>
+                        <h1>A Household Item Recognition System for Visually Impaired Individuals</h1>
+                        <p>Group Project</p>
+                        <div class="date">05/2020-08/2020</div>
+                        <div class="tags">
+                            <div class="tag">View Code</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="pc-introduction">
+                Developed an object localization and classification system that can easily recognize household items to
+                help visually challenged people.<br><br>
+                Applied Detectron2, a Mask RCNN model to realize object localization <br><br>
+                Built a Capsule-CNN model to achieve object classification using Pytorch. <br><br>
+                Adopted various image data processing techniques including segmentation and thresholding on the CORe50
+                (Continual Object Recognition) dataset.
+            </div>
+
+            <!--            ---------------------------------------------------------------------------->
+            <div class="card-grid-space">
+                <a class="card-pc" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/"
+                   style="--bg-img: url('chess-ai.jfif')">
+                    <div>
+                        <h1>Chess AI</h1>
+                        <p>Individual Course Project</p>
+                        <div class="date">02/2019</div>
+                        <div class="tags">
+                            <div class="tag">View Code</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="pc-introduction">
+                Designed and implemented an optimal chess player on Python.<br><br>
+                Adopted multiple algorithms such as Minimax Decision Algorithm and Alpha-Beta Pruning which allowed the
+                program to make the best moves that provide highest gains based on a given board evaluation
+                standard.<br><br>
+            </div>
+
+            <!--            ------------------------------------------------------------------------------------------->
+
+        </div>
+
+
+        <!--        ----engineering -------------------->
+        <div class="subtitles">Engineering Projects</div>
+        <div class="cards-wrapper-pc">
             <div class="card-grid-space">
                 <a class="card-pc" href="https://codetheweb.blog/2017/10/06/html-syntax/"
                    style="--bg-img: url(owo_project_pic.png)">
                     <div>
-                        <h1>One-Way-Only (OWO)</h1>
-                        <p>The syntax of a language is how it works. How to actually write it. Learn HTML syntax…</p>
+                        <h1>One-Way-Only (OWO) Novel Package Storage System</h1>
+                        <p>2020 MakeUofT Hackathon MLH Winner Project</p>
                         <div class="date">6 Oct 2017</div>
                         <div class="tags">
                             <div class="tag">HTML</div>
@@ -232,72 +307,59 @@
                     </div>
                 </a>
             </div>
+            <div class="pc-introduction">
+                Created a system with user identification function and unique automated joint design to restrict
+                delivery direction and bring packages into home securely.<br> <br>
+                Delivered an interactive prototype including a 3D-printed model with CAD and integrated circuit with
+                Arduino.<br> <br>
+                Accomplished highest performance in functionality and creativity.<br>
+            </div>
+
             <div class="card-grid-space">
-                <a class="card-pc" href="https://codetheweb.blog/2017/10/09/basic-types-of-html-tags/"
-                   style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/basic-types-of-html-tags/cover.jpg')">
+                <a class="card-pc" href="https://codetheweb.blog/2017/10/06/html-syntax/"
+                   style="--bg-img: url('BB-praxis2.JPG')">
                     <div>
-                        <h1>Basic types of HTML tags</h1>
-                        <p>Learn about some of the most common HTML tags…</p>
-                        <div class="date">9 Oct 2017</div>
+                        <h1>Blue-block Blocking System for Wandering Dementia Patients in Long-Term Care Facilities</h1>
+                        <p>Course Group Project</p>
+                        <div class="date">01/2019 - 06/2019</div>
                         <div class="tags">
-                            <div class="tag">HTML</div>
+                            <div class="tag">More Details</div>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="card-grid-space">
-                <a class="card-pc" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/"
-                   style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg')">
-                    <div>
-                        <h1>Links, images and about file paths</h1>
-                        <p>Learn how to use links and images along with file paths…</p>
-                        <div class="date">14 Oct 2017</div>
-                        <div class="tags">
-                            <div class="tag">HTML</div>
-                        </div>
-                    </div>
-                </a>
+            <div class="pc-introduction">
+                Proposed and created a blocking and securing system for wandering dementia patients living in long-term
+                care facilities. The system created enables patients wearing blue-tooth wristbands to access their room
+                only rather than entering other patients’ rooms. <br><br>
+                Collaboratively worked with 3 team members to build a working electricity-driven prototype using
+                Arduino, circuits, Bluetooth sensors and stepper motors. <br><br>
+                Stakeholder invitation to present the team result at the Kitchener Innovation Summit in front of 200+
+                personal service workers. <br><br>
             </div>
+
             <div class="card-grid-space">
                 <a class="card-pc" href="https://codetheweb.blog/2017/10/06/html-syntax/"
                    style="--bg-img: url(owo_project_pic.png)">
                     <div>
-                        <h1>One-Way-Only (OWO)</h1>
-                        <p>The syntax of a language is how it works. How to actually write it. Learn HTML syntax…</p>
-                        <div class="date">6 Oct 2017</div>
+                        <h1>Blue-block Blocking System for Wandering Dementia Patients in Long-Term Care Facilities</h1>
+                        <p>Course Group Project</p>
+                        <div class="date">01/2019 - 06/2019</div>
                         <div class="tags">
-                            <div class="tag">HTML</div>
+                            <div class="tag">More Details</div>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="card-grid-space">
-                <a class="card-pc" href="https://codetheweb.blog/2017/10/09/basic-types-of-html-tags/"
-                   style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/basic-types-of-html-tags/cover.jpg')">
-                    <div>
-                        <h1>Basic types of HTML tags</h1>
-                        <p>Learn about some of the most common HTML tags…</p>
-                        <div class="date">9 Oct 2017</div>
-                        <div class="tags">
-                            <div class="tag">HTML</div>
-                        </div>
-                    </div>
-                </a>
+            <div class="pc-introduction">
+                Proposed and created a blocking and securing system for wandering dementia patients living in long-term
+                care facilities. The system created enables patients wearing blue-tooth wristbands to access their room
+                only rather than entering other patients’ rooms. <br><br>
+                Collaboratively worked with 3 team members to build a working electricity-driven prototype using
+                Arduino, circuits, Bluetooth sensors and stepper motors. <br><br>
+                Stakeholder invitation to present the team result at the Kitchener Innovation Summit in front of 200+
+                personal service workers. <br><br>
             </div>
-            <div class="card-grid-space">
-                <a class="card-pc" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/"
-                   style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg')">
-                    <div>
-                        <h1>Links, images and about file paths</h1>
-                        <p>Learn how to use links and images along with file paths…</p>
-                        <div class="date">14 Oct 2017</div>
-                        <div class="tags">
-                            <div class="tag">HTML</div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <!-- https://images.unsplash.com/photo-1520839090488-4a6c211e2f94?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=38951b8650067840307cba514b554ba5&auto=format&fit=crop&w=1350&q=80 -->
         </div>
 
 
@@ -408,7 +470,6 @@
         </div>
 
 
-
         <!--    ------------------------------CONTACT------------------------------------------------------->
         <div class="contact" id="contact">
             <div class="container text-center">
@@ -455,6 +516,20 @@
     <script>
         var scroll = new SmoothScroll('a[href*="#"]');
     </script>
+
+    <script src="https://use.fontawesome.com/92b73f069d.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="PWanimation.js"></script>
+    <!--    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>-->
+    <!--    <script>-->
+    <!--        AOS.init();-->
+    <!--    </script>-->
 </body>
 <!--</html>-->
 
