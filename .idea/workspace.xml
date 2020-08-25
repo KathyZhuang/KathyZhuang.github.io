@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa464a6b-0b73-489d-b8d6-eae6bd0e2843" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BB-praxis2.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/BB-praxis2.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PWstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/PWstyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -27,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PWstyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="264" column="23" selection-start-line="264" selection-start-column="23" selection-end-line="264" selection-end-column="23" />
+            <state relative-caret-position="333">
+              <caret line="1031" column="4" selection-start-line="1031" selection-start-column="4" selection-end-line="1031" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -36,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="102" column="37" lean-forward="true" selection-start-line="102" selection-start-column="37" selection-end-line="102" selection-end-column="37" />
+            <state relative-caret-position="155">
+              <caret line="119" column="44" selection-start-line="119" selection-start-column="44" selection-end-line="119" selection-end-column="44" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#3;n#section#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -76,27 +74,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&lt;a</find>
-      <find>#90</find>
-      <find>selectio</find>
-      <find>who am</find>
-      <find>pc-introduction</find>
-      <find>aos</find>
-      <find>introduc</find>
-      <find>color: #</find>
-      <find>color: red</find>
-      <find>.card-pc:hover</find>
-      <find>var(</find>
-      <find>card-pc</find>
-      <find>OPACITY: 0.3</find>
-      <find>software projec</find>
-      <find>owo</find>
-      <find>resume</find>
-      <find>html</find>
-      <find>software</find>
-      <find>a-style-icon</find>
-      <find>.card</find>
-      <find>background:</find>
       <find>pc-in</find>
       <find>.car</find>
       <find>.card-pc</find>
@@ -104,8 +81,29 @@
       <find>dispari</find>
       <find>hi</find>
       <find>#2</find>
-      <find>hideme</find>
       <find>about me</find>
+      <find>text</find>
+      <find>profile</find>
+      <find>second</find>
+      <find>.card</find>
+      <find>md-</find>
+      <find>card-grid-spac</find>
+      <find>hideme</find>
+      <find>nav</find>
+      <find>about</find>
+      <find>#about</find>
+      <find>backgrou</find>
+      <find>section</find>
+      <find>background</find>
+      <find>aboutme</find>
+      <find>sele</find>
+      <find>subtit</find>
+      <find>software-pc</find>
+      <find>sub</find>
+      <find>a {</find>
+      <find>btn-primary</find>
+      <find>btn</find>
+      <find>drive</find>
     </findStrings>
     <replaceStrings>
       <replace>left</replace>
@@ -124,7 +122,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1903" />
     <option name="width" value="1951" />
     <option name="height" value="1035" />
@@ -194,18 +192,18 @@
       <workItem from="1588539631473" duration="673000" />
       <workItem from="1597710118555" duration="720000" />
       <workItem from="1597776566004" duration="47615000" />
-      <workItem from="1598059244621" duration="16370000" />
+      <workItem from="1598059244621" duration="22566000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90770000" />
+    <option name="totallyTimeSpent" value="96966000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1719" height="932" extended-state="6" />
+    <frame x="-6" y="-6" width="1719" height="932" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2597715" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2597715" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -219,7 +217,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32503113" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.25155666" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.25155666" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32876712" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -255,8 +253,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="102" column="37" lean-forward="true" selection-start-line="102" selection-start-column="37" selection-end-line="102" selection-end-column="37" />
+        <state relative-caret-position="155">
+          <caret line="119" column="44" selection-start-line="119" selection-start-column="44" selection-end-line="119" selection-end-column="44" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#a#0;n#div#0;n#div#3;n#section#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -274,8 +272,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PWstyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="264" column="23" selection-start-line="264" selection-start-column="23" selection-end-line="264" selection-end-column="23" />
+        <state relative-caret-position="333">
+          <caret line="1031" column="4" selection-start-line="1031" selection-start-column="4" selection-end-line="1031" selection-end-column="4" />
         </state>
       </provider>
     </entry>
